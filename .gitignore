@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project specific
+*.swp
+
+# Private datasets
+data/*
+!data/README.md
+
+# Power BI files containing real data
+*.pbix
